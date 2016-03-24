@@ -1,0 +1,389 @@
+html {
+        width: 100%;
+        height: 100%;
+background: rgb(240,249,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(240,249,255,1) 0%, rgba(203,235,255,1) 47%, rgba(161,219,255,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(240,249,255,1)), color-stop(47%,rgba(203,235,255,1)), color-stop(100%,rgba(161,219,255,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=0 ); /* IE6-9 */
+
+background-attachment: fixed;
+
+}
+body {
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+
+    font-family: "Courier New", monospace;
+    text-align: center;
+
+    font-size: 16pt;
+
+    color: black;
+
+    margin: 0;
+}
+
+#logotype {
+    /*min-width: 400px;*/
+    width: 80%;
+    max-width: 600px;
+    margin-top: 3em;
+}
+
+#tagline {
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+#tagline u {
+    color: blue;
+}
+
+#tagline a {
+    color: blue;
+}
+#tagline a:active {
+    color: purple;
+}
+#tagline .l,.r {
+    width: 42%;
+    display: inline-block;
+}
+#tagline .l {
+    text-align: right;
+}
+#tagline .r {
+    text-align: left;
+}
+#tagline .m {
+    width: 4%;
+    display: inline-block;
+}
+
+#ticker {
+    color: chartreuse;
+    position: fixed;
+    bottom: 0px;
+    margin: 0;
+    left: 0px;
+    width: 100%;
+    height: 1em;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.5)
+}
+
+#about {
+    width: 80%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(0,0,255);
+}
+
+
+
+.hr {
+    height: 3px;
+    width: 100%;
+    margin: 0;
+    display: block;
+    padding-bottom: 3em;
+}
+
+.section {
+    margin: 0;
+    padding-bottom: 3em;
+}
+
+.section.video {
+    padding: 0;
+}
+.section.video iframe {
+    margin-bottom: -0.3em;
+}
+.section h1,h2,h3 {
+    color: black;
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.section h2 {
+    margin-top: 0em;
+    margin-bottom: 2em;
+
+}
+
+.section p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 1em;
+    width: 90%;
+    max-width: 800px;
+    font-size: 1em;
+    line-height: 1.2em;
+}
+
+.section p.large {
+    font-size: 1.25em;
+    font-weight: lighter;
+}
+
+
+.section.interlude .centered {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    
+    left: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.section.interlude h2 {
+    /*position: relative;
+    bottom:0;
+    top: 0;
+    
+
+    left: -50%;*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+
+    background-color: magenta;
+    font-style: normal;
+    font-weight: lighter;
+    display: inline-block;
+    padding-top: .2em;
+    padding-bottom: .2em;
+    padding-left: .6em;
+    padding-right: .6em;
+    color: chartreuse;
+}
+
+.section table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section table td {
+    width: 25%;
+    padding: 5%;
+}
+.section .leftimg {
+    float: left;
+    width: 100%;
+}
+.section .info {
+    font-size: 200%;
+}
+
+.section .block {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.section .block.full {
+    width: 80%;
+}
+
+.section .block img {
+    width: 100%;
+}
+
+.section .block .logo {
+    text-align: center;
+}
+.section .block .logo img {
+    width: 40%;
+}
+
+/*.section .block.image .slider .item {
+}*/
+
+
+.section .block h3 {
+    font-size: 1.5em;
+    color: white;
+    background-color: blue;
+    display: inline-block;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    width: 90%;
+    max-width: 800px;
+
+}
+.section .block.full h3 {
+    width: 100%;
+}
+.section .block p {
+    font-style: normal;
+    
+    text-align: left;
+    width: 90%;
+    max-width: 800px;
+}
+.section .block.full p {
+    width: 100%;
+}
+
+.section p a {
+    color: white;
+    background-color: magenta;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    
+    text-decoration: underline;
+}
+.section p a:hover {
+    text-decoration: none;
+}
+
+#header {
+     background-color: yellow;
+     background: url(../img/windmills2.gif);
+    background-size: cover;
+    background-position: center bottom;
+    min-height: 50%;
+}
+
+
+#header h1 {
+    background-color: yellow;
+    display: inline-block;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#intro {
+    color: white;
+    background-color: blue;
+}
+
+#palmdiv {
+    background: url(../img/palms2.gif);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    height: 100%;
+}
+#vibes {
+    background-color: white;
+    color: black;
+}
+#keyboard  {
+/*     padding-top: 3em; */
+/*     background-color: white; */
+}
+
+#colorbot {
+/*     padding-top: 3em; */
+    background-color: black;
+    color: white;
+}
+
+#makerfaire {
+/*     padding-top: 3em; */
+    background-color: yellow;
+    color: black;
+}
+#makerfaire .block {
+        padding-top: 3em;
+        padding-bottom: 3em;
+}
+
+#wifi {
+/*     padding-top: 3em; */
+    background-color: cyan;
+}
+
+#footer {
+    padding-top: 1em;
+    background-color: black;
+    color: white;
+}
+
+#sellit {
+    border: 10px solid blue;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+#people .person {
+    width: 25%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: inline-block;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+#people .person a {
+    color: white;
+    background-color: black;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-decoration: underline;
+}
+#people .person a:hover {
+    text-decoration: none;
+}
+
+#people .person img {
+    width: 100%;
+}
+
+
+.highlight {
+    display: inline-block;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.highlight.red {
+    background-color: #ff5c5c;
+    color: white;
+}
+
+.highlight.blue {
+    background-color: #2222FF;
+    color: white;
+}
+
+@media screen and (max-width: 720px) {
+ 
+  /* Single column layout */
+    .section .block {
+        width: 90%;
+        display: inline-block;
+    }
+    body {
+        font-size: 12pt;
+    }
+
+    .wide {
+        display: none;
+    }
+}
+@media screen and (min-width: 720px) {
+    .narrow {
+        display: none;
+    }
+}
