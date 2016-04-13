@@ -1,0 +1,176 @@
+html, body {
+    padding: 0;
+    margin: 0px;
+    font-family: "letter-gothic-std";
+    color: white;
+    overflow-x: hidden;
+}
+
+html {
+    background: #ffff00;
+    background: -moz-linear-gradient(top,  #ffff00 0%, #ff00ff 100%);
+    background: -webkit-linear-gradient(top,  #ffff00 0%,#ff00ff 100%);
+    background: linear-gradient(to bottom,  #ffff00 0%,#ff00ff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff00', endColorstr='#ff00ff',GradientType=0 );
+    height: 100%;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.section {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;   
+    min-height: 100%;
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+.section h1 {
+    background-color: blue;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+    display: inline-block;
+    font-style: italic;
+    font-weight: normal;
+    z-index: 10;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.section .subtitle {
+    background-color: rgba(57, 54, 78, 0.95);
+    color: white;
+    padding: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 14pt;
+    max-width: 700px;
+    width: 70%;
+    display: inline-block;
+}
+
+#animatedSteps {
+    display: block;
+    width: 80%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#patternA {
+    width: 27%;
+}
+#patternB {
+    width: 20%;
+}
+#patternC {
+    width: 27%;
+}
+
+
+#coloredA {
+    width: 27%;
+}
+#coloredB {
+    width: 20%;
+}
+#coloredC {
+    width: 27%;
+}
+
+#trio {
+    width: 150%;
+    overflow-x: hidden;
+    margin-left: -25%;
+}
+#trio img {
+    vertical-align: middle;
+}
+
+#ticker {
+    position: fixed;
+    top: 0;
+    width: 50%;
+    right: -10%;
+    padding: 0.5em;
+    background-color: rgba(0,0,0,0.5);
+    color: #00FF00;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    font-size: 150%;
+}
+
+
+.realemoji {
+    font-weight: normal;
+    font-family: "Apple Color Emoji";
+}
+
+#emojiconfetti {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+#emojiconfetti img {
+    position: absolute;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+
+.contact {
+    font-size: 14pt;
+    max-width: 700px;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: blue;
+    padding: 2em;
+    margin-bottom: 10em;
+    border-radius: 1em;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.contact a {
+    background-color: yellow;
+    text-decoration: none;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    display: inline-block;
+}
+
+
+.rainbowhr {
+    width: 100%;
+    margin-bottom: 5em;
+    height: 2px;
+}
+@media screen and (max-width: 1000px) {
+    #ticker {
+        -webkit-transform: none;
+        transform: none;
+        bottom: 0;
+        left: 0;
+        top: auto;
+        right: auto;
+        width: 100%;
+    }
+    
+    body {
+        font-size: 150%;
+    }
+}
