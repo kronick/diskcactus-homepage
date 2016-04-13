@@ -159,7 +159,7 @@ body {
     transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
 
-    background-color: magenta;
+    background-color: cyan;
     font-style: normal;
     font-weight: lighter;
     display: inline-block;
@@ -167,7 +167,7 @@ body {
     padding-bottom: .2em;
     padding-left: .6em;
     padding-right: .6em;
-    color: chartreuse;
+    color: blue;
 }
 
 .section table {
