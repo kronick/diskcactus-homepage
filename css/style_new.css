@@ -159,7 +159,7 @@ body {
     transform: translate(-50%,-50%);
     -webkit-transform: translate(-50%,-50%);
 
-    background-color: magenta;
+    background-color: cyan;
     font-style: normal;
     font-weight: lighter;
     display: inline-block;
@@ -167,7 +167,7 @@ body {
     padding-bottom: .2em;
     padding-left: .6em;
     padding-right: .6em;
-    color: chartreuse;
+    color: blue;
 }
 
 .section table {
@@ -210,6 +210,7 @@ body {
     width: 40%;
 }
 
+
 /*.section .block.image .slider .item {
 }*/
 
@@ -247,6 +248,7 @@ body {
     
     text-decoration: underline;
 }
+
 .section p a:hover {
     text-decoration: none;
 }
@@ -279,6 +281,25 @@ body {
     position: relative;
     height: 100%;
 }
+
+#aiscry {
+    background-color: magenta;
+    color: white;
+    text-align: center;
+}
+
+#aiscry a{
+    background-color:blue;
+}
+
+#aiscry .button a{
+    background-color:magenta;
+}
+
+#aiscry .button img {
+    width: 40%;
+}
+
 #vibes {
     background-color: white;
     color: black;
