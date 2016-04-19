@@ -283,7 +283,7 @@ body {
 }
 
 #aiscry {
-    background-color: magenta;
+    background: linear-gradient(45deg, #00a9ff 0%,#ea00a8 100%);
     color: white;
     text-align: center;
 }
@@ -292,8 +292,8 @@ body {
     background-color:blue;
 }
 
-#aiscry .button a{
-    background-color:magenta;
+#aiscry a.button{
+    background: none;
 }
 
 #aiscry .button img {
